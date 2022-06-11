@@ -18,5 +18,45 @@
       </nav>
       <h1>דב לן - בע"מ</h1>
     </header>
+    <main>
+      <div id="contact-us-form">
+        <form
+          action="https://formspree.io/f/myyooqyb"
+          id="contactUsForm"
+          method="POST"
+        >
+          <div>
+            <label for="name">*שם מלא:</label>
+            <input type="text" name="name" class="name" required />
+          </div>
+          <div>
+            <label for="tel">*מספר פאלפון:</label>
+            <input type="tel" name="tel" class="tel" required />
+          </div>
+          <div>
+            <label for="email">אימייל:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="contectUsAddress">*כתובת:</label>
+            <input type="text" name="address" id="contectUsAddress" required />
+          </div>
+
+          <label for="writing-space">ספר/י לנו מה את/ה חושב/ת</label>
+          <div>
+            <textarea
+              name="writing-space"
+              id="writing-space"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <button id="contactUsBtn">submit</button>
+
+          <p id="conUsP">* - must fill</p>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
