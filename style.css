@@ -11,9 +11,10 @@ body {
   width: 100vw;
   height: 100vh;
   flex-direction: column;
-  background-image: url("https://st3.depositphotos.com/13324256/19091/i/450/depositphotos_190910664-stock-photo-top-view-hosepipe-hand-rake.jpg");
+  background-color:#a4ac86;
+  /* background-image: url("https://st3.depositphotos.com/13324256/19091/i/450/depositphotos_190910664-stock-photo-top-view-hosepipe-hand-rake.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 .main-nav {
   list-style: none;
@@ -45,7 +46,7 @@ h1 {
 #about-us {
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  width: 70vw;
   height: auto;
   background-color: rgba(211, 211, 211, 0.65);
 }
@@ -55,13 +56,15 @@ h1 {
   overflow-x: scroll;
 }
 .store-imgs {
-  width: 150px;
+  width: 20vw;
   height: auto;
 }
 
 footer {
-  width: 51vw;
+  width: 490px;
   background-color: rgba(211, 211, 211, 0.65);
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
 }
 #tb-footer,
 table,
@@ -73,7 +76,7 @@ td {
 }
 #footer-2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 #contact-us-form {
   width: 40vw;
@@ -96,4 +99,6 @@ td {
   background-color: rgba(211, 211, 211, 0.65);
   overflow: hidden;
 }
-
+#store-main-flex h1 {
+  color: black;
+}
