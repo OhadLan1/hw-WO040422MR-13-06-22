@@ -7,20 +7,21 @@
   font-family: "Rubik", sans-serif;
 }
 body {
-  margin: 0 10px 0 0;
+  margin: 0 20px 0 0;
   width: 100vw;
   height: 100vh;
   flex-direction: column;
   background-color:#a4ac86;
-  /* background-image: url("https://st3.depositphotos.com/13324256/19091/i/450/depositphotos_190910664-stock-photo-top-view-hosepipe-hand-rake.jpg");
+  background-image: url(https://previews.123rf.com/images/serezniy/serezniy1810/serezniy181016448/111108737-composition-with-flowers-and-gardening-tools-on-soil-background.jpg);
+  /* background-image: url("https://st3.depositphotos.com/13324256/19091/i/450/depositphotos_190910664-stock-photo-top-view-hosepipe-hand-rake.jpg"); */
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover; 
 }
 .main-nav {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 50vw;
+  width: 20vw;
   align-items: center;
   margin: 5px auto;
 }
@@ -64,7 +65,9 @@ footer {
   width: 490px;
   background-color: rgba(211, 211, 211, 0.65);
   padding: 10px 10px 0px 10px;
-  bottom: 0;
+  position: absolute;
+    bottom: 0;
+    height: ;
 }
 #tb-footer,
 table,
@@ -93,6 +96,7 @@ td {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  
 }
 #store-main-flex > div {
   width: 30vw;
